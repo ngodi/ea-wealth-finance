@@ -3,7 +3,11 @@
 .header{
     margin-top: 100px;
     height:80vh;
-    background-color: $blue-secondary;
+    background-image: linear-gradient(to right,rgba(59, 88, 184, 0.795), rgba(59, 88, 184, 0.767)),
+    url(https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -12,13 +16,13 @@
     .company-name{
         font-size: 5rem;
         letter-spacing: 5vw;
-        color: $blue-primary;
+        color: $blue-secondary;
         animation: moveright 6s ease-out;
     }
 
     .slogan{
         font-size: 3rem;
-        color: $blue-primary;
+        color: $blue-secondary;
         letter-spacing: 0.3vw;
         margin-bottom: 50px;
         transform: translateX(-3%);
