@@ -4,7 +4,8 @@ import './Service.scss';
 
 const Service = (props) => {
   return (
-    <div className="service">
+    <div className="service-container">
+        <div className="service">
         <div className="service-intro">
             <div className="service-heading">{props.heading}</div>
             <div className="service-img-box">
@@ -13,8 +14,9 @@ const Service = (props) => {
         </div>
         <div className="service-content">
             <div className="service-description">{props.description}</div>
-            <button className="book-btn">BOOK AN APPOINTMENT</button>
+            <button className="book-btn">BOOK NOW</button>
         </div>
+    </div>
     </div>
   );
 }

@@ -33,17 +33,20 @@
 .nav-menu{
 
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     a,a:link, a:visited{
         margin: 5px 10px;
         border: 1px solid $blue-tertiary;
-        color: $blue-tertiary;
+        background: $blue-tertiary;
+        color: WHITE;
         border-radius: 5px;
         padding: 5px;
         text-decoration: none;
      &:hover{
          color: #FFF;
-         background: $blue-tertiary;
+         background:white;
+         color:  $blue-tertiary;
+         border: 1px solid  $blue-tertiary;
      }
      &:active{
         transform: translateY(2px) scale(0.85);
