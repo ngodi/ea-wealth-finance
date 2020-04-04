@@ -1,0 +1,46 @@
+@import '../../styles/base';
+
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 25px 0;
+    background: white;
+    position: fixed;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    align-items: flex-end;
+
+    span:first-child{
+        font-size: 3rem;
+        border: 1px solid $blue-primary;
+        color: white;
+        background: $blue-primary;
+        padding: 5px 10px;
+    }
+
+    span:last-child{
+        font-style: italic;
+        color: $blue-primary;
+    }
+}
+
+.nav-menu{
+
+    display: flex;
+    align-items: flex-end;
+    a,a:link, a:visited{
+        margin: 5px 10px;
+        border: 1px solid $blue-tertiary;
+        color: $blue-tertiary;
+        border-radius: 5px;
+        padding: 5px;
+        text-decoration: none;
+     &:hover{
+         color: #FFF;
+         background: $blue-tertiary;
+     }
+    }
+}
