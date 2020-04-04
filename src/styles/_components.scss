@@ -13,3 +13,29 @@
         transform: translateY(2px) scale(0.85);
     }
 }
+
+.heading{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    align-items: center;
+}
+
+.heading-text{
+    color:$blue-primary;
+    font-size: 3rem;
+    margin-left: 10px;
+   
+    &:hover{
+        animation: heading 1s ease infinite;
+    }
+}
+
+@keyframes heading{
+    0%{
+        background: linear-gradient(135deg, $blue-secondary 10%, white 90%);
+    }
+    100%{
+        background: linear-gradient(135deg, $blue-secondary 90%, white 10%);
+    }
+}
