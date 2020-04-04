@@ -1,0 +1,15 @@
+.btn-primary{
+    border: none;
+    background: $blue-tertiary;
+    padding: 10px;
+    color: $blue-secondary;
+    box-shadow: 4px 4px $gray-primary;
+    font-weight: bold;
+
+    &:hover{
+      cursor: pointer;
+    }
+    &:active{
+        transform: translateY(2px) scale(0.85);
+    }
+}
