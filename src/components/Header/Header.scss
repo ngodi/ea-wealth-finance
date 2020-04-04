@@ -1,0 +1,22 @@
+@import '../../styles/base';
+
+.header{
+    margin-top: 100px;
+    height:100vh;
+    background-color: $blue-secondary;
+    width: 100%;
+
+    .company-name{
+        font-size: 5rem;
+        letter-spacing: 30px;
+        width:100%;
+     
+        color: $blue-primary;
+    }
+
+    .slogan{
+        position: absolute;
+        font-size: 3rem;
+        color: $blue-primary;
+    }
+}
