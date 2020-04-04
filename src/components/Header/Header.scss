@@ -13,6 +13,7 @@
         font-size: 5rem;
         letter-spacing: 5vw;
         color: $blue-primary;
+        animation: moveright 6s ease-out;
     }
 
     .slogan{
@@ -21,5 +22,50 @@
         letter-spacing: 0.3vw;
         margin-bottom: 50px;
         transform: translateX(-3%);
+        animation: moveleft 6s ease-out;
     }
 }
+
+.btn-moveup{
+    animation: moveup 3s ease;
+}
+
+@keyframes moveright {
+    0% {
+        transform: translateX(-30vw);
+        opacity: 0;
+    }
+    80% {
+        transform: translateX(5vw);
+        opacity: 0.8;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+  }
+  @keyframes moveleft {
+    0% {
+        transform: translateX(30vw);
+        opacity: 0;
+    }
+    80% {
+        transform: translateX(-5vw);
+        opacity: 0.8;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+  }
+  @keyframes moveup {
+    0% {
+        transform: translateY(50px);
+    }
+    80% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+  }

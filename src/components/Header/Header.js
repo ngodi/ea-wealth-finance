@@ -12,7 +12,7 @@ const Header = () => {
         <div className="slogan">
         Financial Consulting.  Let Us Do the Math.
         </div>
-        <button className="btn-primary">DISCOVER OUR SERVICES</button>
+        <button className="btn-primary btn-moveup">DISCOVER OUR SERVICES</button>
     </div>
   );
 }
