@@ -1,0 +1,49 @@
+@import '../../styles/base';
+
+.service{
+width: 70vw;
+background: $blue-secondary;
+display: flex;
+justify-content: space-between;
+margin: 20px auto;
+border-radius: 10px;
+box-shadow: 2px 2px 4px 2px $gray-primary;
+}
+
+.service-intro{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.service-heading{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+}
+.service-img-box{
+    width: 300px;
+    border: 4px solid white;
+}
+.service-content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-description{
+    text-align: justify;
+    padding: 30px ;
+    font-size: 18px;
+}
+
+.book-btn{
+    width: 200px;
+    padding: 10px;
+    background: $blue-tertiary;
+    color:white;
+    cursor: pointer;
+}
