@@ -1,0 +1,47 @@
+@import '../../styles/base';
+.fa-book{
+    color:$blue-secondary;
+}
+
+.about-content{
+    background: linear-gradient(to right, $blue-tertiary, $blue-primary);
+    padding: 150px 30px;
+    color: $blue-secondary;
+    line-height: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify;
+    margin: 100px 0;
+    transform: skewY(-2deg);
+
+   
+}
+
+.heading-secondary{
+      color:$blue-primary;  
+      margin-bottom: 20px;
+}
+
+.about-right{
+    width: 30vw;
+    transform: skewY(2deg);
+    border: 5px solid white;
+    padding: 10px 20px;
+    background: $blue-secondary;
+    color: black;
+}
+
+.about-mission, .about-vision{
+width: 40vw;
+margin-bottom: 20px;
+transform: skewY(2deg);
+font-size: 20px;
+line-height: 2rem;
+
+p, ul{
+background: $blue-secondary;
+color: black;
+padding: 30px;
+border: 5px solid white;
+}
+}

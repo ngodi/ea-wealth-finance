@@ -19,6 +19,10 @@
         letter-spacing: 5vw;
         color: $blue-secondary;
         animation: moveright 6s ease-out;
+        transition: all 1s;
+        &:hover{
+            transform: translateY(-10px);
+        }
     }
 
     .slogan{
