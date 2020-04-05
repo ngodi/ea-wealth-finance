@@ -2,3 +2,10 @@
 .fa-hourglass-end{
  color: $blue-secondary;
 }
+
+.activities{
+    color: $blue-secondary;
+}
+.previousButton, .nextButton {
+    display: hidden !important;
+}
