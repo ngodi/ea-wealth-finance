@@ -5,6 +5,7 @@ import Navigation from './components/Navigation/Navigation';
 import Header from './components/Header/Header';
 import Services from './components/Services/Services';
 import About from './components/About/About';
+import Activities from './components/Activities/Activities';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <Services />
       <About />
+      <Activities />
     </div>
   );
 }
