@@ -1,0 +1,45 @@
+@import '../../styles/base';
+
+.fa-home{
+    color:$blue-secondary;
+}
+
+
+.contact-content{
+    background-image: url(https://images.pexels.com/photos/6397/white-globe-on-a-desk.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+   @include background;
+}
+
+.contact-top{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0;
+    color: $blue-primary;
+    font-size: 24px;
+    font-style: italic;
+
+    span{
+        background: $blue-secondary;
+        padding: 5px 10px;
+        border-radius: 5px;
+        transition: all 0.5s;
+        box-shadow: 4px 4px 4px white;
+        margin: 0 5px;
+        &:hover{
+            transform: translateY(5px);
+        }
+    }
+    .fas{
+          color: $blue-secondary;
+          text-shadow: 2px 2px $blue-primary;
+    }
+  
+
+}
+
+.contact-form{
+    padding: 10px;
+    border: 10px solid white;
+    width: 680px;
+}

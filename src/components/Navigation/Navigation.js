@@ -7,7 +7,7 @@ const Navigation = () => {
     <div className="navigation">
         <div className="logo">
             <span>AE</span>
-            <span>Wealth Management & Personal Finance Consulting</span>
+            <span>Wealth & Financial Consulting</span>
         </div>
         <div className="nav-menu">
             <a href="#">HOME</a>

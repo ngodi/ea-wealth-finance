@@ -12,3 +12,9 @@ $small-font: 16px;
 //DIMENSIONS
 
 //MIXINS
+@mixin background {
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
