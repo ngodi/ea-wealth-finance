@@ -3,9 +3,45 @@
  color: $blue-secondary;
 }
 
-.activities{
-    color: $blue-secondary;
+.activities-content{
+    display: flex;
+    justify-content: space-between;
 }
 .previousButton, .nextButton {
     display: hidden !important;
+}
+.activity{
+    background: $blue-secondary;
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    box-shadow: 2px 2px 2px $gray-primary;
+    border-radius: 10px;
+    transition: all 1s;
+    
+    .activity-name{
+        font-weight: bold;
+        color: $blue-primary;
+    }
+    .activity-link{
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        background: $gray-primary;
+        cursor: pointer;
+
+        &:hover{
+            border: 3px solid white;
+            color: white;
+        }
+    }
+
+    &:hover{
+        transform: scale(1.1);
+    }
 }

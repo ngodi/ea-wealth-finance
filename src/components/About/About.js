@@ -27,7 +27,7 @@ const About = () => {
             </div>
             <div className="about-right">
             <h2 className="heading-secondary">MEET THE FOUNDER</h2>
-            <img src="https://images.pexels.com/photos/935943/pexels-photo-935943.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="CEO" width="100%" />
+            <img src="./images/ceo.jpg" alt="CEO" width="100%" />
             <p>Neville Erambo is a financial planner, coach, mentor and entrepreneur. He hails from a town in the South West region of Cameroon, studied in South Africa and currently lives in the United Kingdom. He has over 10 years of experience within the financial services industry working as a financial planner. He is a member of the personal finance society in London which is arguably the best organisation in terms of personal finance.
                 From humble beginnings and having made his way through life in what most people will call ‘a miracle’, he believes he has a lot to offer based on his wealth of experience and insight.
              </p>
