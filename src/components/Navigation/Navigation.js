@@ -10,7 +10,7 @@ const Navigation = () => {
             <span>Wealth & Financial Consulting</span>
         </div>
         <div className="nav-menu">
-            <a href="#home">HOME</a>
+            <a className="home" href="#home">HOME</a>
             <a href="#services">SERVICES</a>
             <a href="#about">ABOUT</a>
             <a href="#activities">ACTIVITIES</a>

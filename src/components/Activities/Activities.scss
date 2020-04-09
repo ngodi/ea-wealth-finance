@@ -4,77 +4,13 @@
  color: $blue-secondary;
 }
 
-.activities-content{
+.activities{
     display: flex;
-    justify-content: space-evenly;
-    min-height: 600px;
-    margin-top: 50px;
+    justify-content: space-between;
+    min-height: 500px;
+    color: yellow;
 }
- 
-    .card{
-       perspective: 1500px;
-       -moz-perspective:1500px ;
-       position: relative;
-        .front{
-            width: 250px;
-            height: 300px;
-            margin: 20px;
-            background-image: linear-gradient(to bottom, $blue-secondary, $blue-primary);
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            align-items: center;
-            text-align: center;
-            box-shadow: 2px 2px 2px $gray-primary;
-            border-radius: 10px;
-            transition: all 1s;
-            backface-visibility: hidden;
-        }
 
-        .back{
-            width: 250px;
-            height: 300px;
-            margin: 20px;
-            background: green;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            align-items: center;
-            text-align: center;
-            box-shadow: 2px 2px 2px $gray-primary;
-            border-radius: 10px;
-            transition: all 1s;
-            backface-visibility: hidden;
-            transform: rotateY(180deg);
-            position: absolute;
-            top:0;
-        }
-
-        &:hover .front{
-            transform: rotateY(-180deg);
-         }
-
-         &:hover .back{
-            transform: rotateY(0);
-         }
-    }
-
-    .activity-name{
-        font-weight: bold;
-        color: $blue-primary;
-    }
-    .activity-link{
-        padding: 5px 10px;
-        border: none;
-        border-radius: 5px;
-        background: $gray-primary;
-        cursor: pointer;
-
-        &:hover{
-            border: 3px solid white;
-            color: white;
-        }
-    }
 
 
 

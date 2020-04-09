@@ -3,8 +3,14 @@ import './Activities.scss';
 
 import '../../styles/main.scss';
 
-const Activities = () => {
+import Slider from 'react-animated-slider';
+import 'react-animated-slider/build/horizontal.css';
 
+const Activities = () => {
+  const slides = [
+    { title: 'Advice on credit management', date: '04 March 2020', location:'Online', image:'', link:''},
+    { title: 'Asset Management Coaching',  date: 'Upcoming', location:'Online', image:'', link:''}
+  ];
   return (
     <div className="activities">
         <div className="heading">
@@ -12,18 +18,14 @@ const Activities = () => {
            <span className="heading-text">RECENT ACTIVITIES</span>
         </div>
         <div className="activities-content">
-            <div className="activity">
-                  <div className="card">
-                    <div className="front">
-                      <div className="activity-name">Facebook-live Talk on Credit management</div>
-                      <div className="activity-date">Saturday 05 APRIL</div>
-                    </div>
-                    <div className="back">
-                      <button className="activity-link">About...</button>
-                    </div>
-               </div>
-            
-            </div>
+        <Slider>
+        {slides.map((slide, index) => <div key={index}  style={{backgroundImage:`url(${slide.image})`}}>
+          <h2>{slide.title}</h2>
+          <div>{slide.date}</div>
+          <span>Location: {slide.location}</span>
+          <button><a href={slide.link}>VIEW MORE</a></button>
+        </div>)}
+      </Slider>
         </div>
     </div>
   );
