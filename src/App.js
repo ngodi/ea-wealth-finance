@@ -12,10 +12,15 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div className="App">
+      <div id="home"></div>
       <Navigation />
+      <div id="services"></div>
       <Header />
+      <div id="about"></div>
       <Services />
+      <div id="activities"></div>
       <About />
+      <div id="contact"></div>
       <Activities />
       <Contact />
       <Footer />

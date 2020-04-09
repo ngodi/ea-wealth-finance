@@ -14,7 +14,7 @@ const Service = (props) => {
         </div>
         <div className="service-content">
             <div className="service-description">{props.description}</div>
-            <button className="book-btn">BOOK NOW</button>
+            <a target="_blank" href="https://calendly.com/albertngodi/financial-planning"><button className="book-btn">BOOK SESSION</button></a>
         </div>
     </div>
     </div>

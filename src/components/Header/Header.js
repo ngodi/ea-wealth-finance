@@ -5,7 +5,7 @@ import '../../styles/main.scss';
 
 const Header = () => {
   return (
-    <div className="header">
+    <div  className="header">
         <div className="company-name">
            AE WEALTH
         </div>
