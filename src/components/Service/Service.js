@@ -12,7 +12,7 @@ const Service = (props) => {
                 <img src={props.image} alt="Our Service" width="100%" />
             </div>
         </div>
-        <div className="service-content">
+        <div className="service-content" data-aos="fade-right">
             <div className="service-description">{props.description}</div>
             <a target="_blank" href={props.book}><button className="book-btn">BOOK SESSION</button></a>
         </div>

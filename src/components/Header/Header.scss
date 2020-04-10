@@ -1,7 +1,6 @@
 @import '../../styles/base';
 
 .header{
-    margin-top: 100px;
     height:80vh;
     background-image: linear-gradient(to right,rgba(59, 88, 184, 0.795), rgba(59, 88, 184, 0.767)),
     url(https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
@@ -14,6 +13,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    a{
+        text-decoration: none;
+    }
     .company-name{
         font-size: 5rem;
         letter-spacing: 5vw;
