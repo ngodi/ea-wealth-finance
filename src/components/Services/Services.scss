@@ -7,4 +7,6 @@
 .service-content-box{
    background-image: url(https://images.pexels.com/photos/50987/money-card-business-credit-card-50987.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
    @include background;
+   margin: 100px 0 200px 0;
+   padding: 100px 0;
 }

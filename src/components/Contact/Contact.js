@@ -15,8 +15,8 @@ const Contact = () => {
        <div className="contact-content">
            <div className="contact-inner">
             <div className="contact-top">
-              <span><i class="fas fa-3x fa-phone-square-alt"></i>&nbsp;+44 7958 431532</span>
-              <span><i class="fas fa-3x fa-at"></i>&nbsp; nevilleerambo@yahoo.com</span>
+              <span><i class="fas fa-2x fa-phone-square-alt"></i>&nbsp;+44 7958 431532</span>
+              <span><i class="fas fa-2x fa-at"></i>&nbsp; nevilleerambo@yahoo.com</span>
             </div>
             <div className="contact-form">
               <ContactUs />

@@ -188,3 +188,23 @@
         transform: rotate(-135deg);
     }
 }
+
+@media only screen and (max-width:900px){
+  .nav-menu{
+      display: none;
+  }
+  .navigation{
+      justify-content: flex-start;
+  }
+  .navigation1{
+     &__button{
+         top: 4px;
+         right: 4px;
+     }
+
+     &__background{
+         top:6px;
+         right:6px;
+     }
+  }
+}

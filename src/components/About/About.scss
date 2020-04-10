@@ -15,7 +15,11 @@
     text-align: justify;
     margin: 100px 0;
     transform: skewY(-2deg);
-
+   
+    @media only screen and (max-width:900px){
+        flex-direction: column;
+        align-items: center;
+       }
    
 }
 
@@ -26,15 +30,20 @@
 
 .about-right{
     width: 30vw;
+    min-width: 450px;
     transform: skewY(2deg);
     border: 5px solid white;
     padding: 10px 20px;
     background: $blue-secondary;
     color: black;
 }
+.about-left{
+    min-width: 450px;
+}
 
 .about-mission, .about-vision{
 width: 40vw;
+min-width: 450px;
 margin-bottom: 20px;
 transform: skewY(2deg);
 font-size: 20px;

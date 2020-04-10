@@ -13,6 +13,7 @@
 .contact-top{
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
     align-items: center;
     padding: 10px 0;
     color: $blue-primary;
@@ -23,12 +24,20 @@
         background: $blue-secondary;
         padding: 5px 10px;
         border-radius: 5px;
+        min-width: 350px;
         transition: all 0.5s;
         box-shadow: 4px 4px 4px white;
         margin: 0 5px;
         &:hover{
             transform: translateY(5px);
         }
+
+        @media only screen and (max-width:900px){
+            font-size: 16px;
+            padding: 3px;
+            min-width: 340px;
+            margin: 10px 0;
+           }
     }
     .fas{
           color: $blue-secondary;
@@ -41,6 +50,10 @@
 .contact-form{
     border: 10px solid white;
     width: 680px;
+
+    @media only screen and (max-width:900px){
+        width: 70vw;
+       }
 }
 
 .contact-inner{

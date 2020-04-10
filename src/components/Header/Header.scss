@@ -26,6 +26,11 @@
         &:hover{
             transform: translateY(-10px);
         }
+
+        @media only screen and (max-width:900px){
+           font-size: 3rem;
+          }
+
     }
 
     .slogan{
@@ -35,6 +40,10 @@
         margin-bottom: 50px;
         transform: translateX(-3%);
         animation: moveleft 6s ease-out;
+
+        @media only screen and (max-width:900px){
+            font-size: 1.3rem;
+           }
     }
 }
 

@@ -8,9 +8,9 @@ import 'react-animated-slider/build/horizontal.css';
 
 const Activities = () => {
   const slides = [
-    { title: 'Credit Card usage', date: '04 March 2020', location:'Facebook livestream', image:'./images/facebook1.png', link:''},
-    { title: 'Asset Management',  date: 'Upcoming', location:'Online', image:'', link:''},
-    { title: 'Asset Management',  date: 'Upcoming', location:'Online', image:'', link:''}
+    { title: 'Credit Card usage', date: '04 March 2020', location:'Facebook livestream', image:'./images/facebook1.png', link:'#'},
+    { title: 'Asset Management',  date: 'Upcoming', location:'Online', image:'https://images.pexels.com/photos/3321793/pexels-photo-3321793.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500', link:'#'},
+    { title: 'Asset Management',  date: 'Upcoming', location:'Online', image:'https://images.pexels.com/photos/3321793/pexels-photo-3321793.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500', link:'#'}
   ];
   return (
     <div className="activities">
