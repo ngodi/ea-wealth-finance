@@ -8,9 +8,9 @@ import 'react-animated-slider/build/horizontal.css';
 
 const Activities = () => {
   const slides = [
-    { title: 'Credit Card usage', date: '04 March 2020', location:'Facebook livestream', image:'./images/facebook1.png', link:'#'},
+    { title: 'CREDIT CARD AS AN ASSET', date: '04 MARCH 2020', location:'Facebook livestream', image:'./images/facebook1.png', link:'#'},
     { title: 'Asset Management',  date: 'Upcoming', location:'Online', image:'https://images.pexels.com/photos/3321793/pexels-photo-3321793.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500', link:'#'},
-    { title: 'Asset Management',  date: 'Upcoming', location:'Online', image:'https://images.pexels.com/photos/3321793/pexels-photo-3321793.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500', link:'#'}
+    { title: 'LIFE INSURANCE',  date: '11 APRIL 2020', location:'Online - Facebook', image:'./images/facebook2.png', link:'https://www.facebook.com/neville.erambo/videos/3547007808660535/'}
   ];
   return (
     <div className="activities">
@@ -23,7 +23,7 @@ const Activities = () => {
           <h2>{slide.title}</h2>
           <span className="slide-date">{slide.date}</span>
           <span className="slide-location">Location: {slide.location}</span>
-          <button><a href={slide.link}>PREVIEW</a></button>
+          <button><a href={slide.link}>VIEW</a></button>
         </div>)}
       </Slider>
     </div>
