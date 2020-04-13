@@ -50,7 +50,23 @@
     }
     }
 }
+.social-links{
+    display: flex;
+    justify-content: center;
 
+    a{
+        text-decoration: none;
+        margin: 0 10px;
+        color: $blue-tertiary;
+        transition: all 1s;
+
+        &:hover{
+            transform: rotate(20deg);
+            color: $blue-primary;
+            cursor: pointer;
+        }
+    }
+}
 .navigation1{
      &__checkbox{
       display: none;
