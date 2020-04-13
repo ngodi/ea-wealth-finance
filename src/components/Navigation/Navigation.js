@@ -24,9 +24,9 @@ render(){
             <span>Wealth & Financial Consulting</span>
         </div>
         <div class="social-links">
-            <a target="_blank" href='https://www.facebook.com/Nevillepersonalfinanceconsulting'> <i class="fab fa fa-facebook"></i></a>
-            <a target="_blank" href='http://linkedin.com/in/neville-erambo-5912094a'><i class="fab fa fa-linkedin-in"></i></a>
-            <a target="_blank" href='https://twitter.com/NERAMBO'> <i class="fab fa fa-twitter"></i></a>
+            <a target="_blank" href='https://www.facebook.com/Nevillepersonalfinanceconsulting'><i class="fab fa-facebook"></i></a>
+            <a target="_blank" href='http://linkedin.com/in/neville-erambo-5912094a'><i class="fab fa-linkedin-in"></i></a>
+            <a target="_blank" href='https://twitter.com/NERAMBO'> <i class="fab fa-twitter"></i></a>
           
         </div>
         <div className="nav-menu">
