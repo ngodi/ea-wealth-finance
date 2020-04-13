@@ -8,9 +8,9 @@ import 'react-animated-slider/build/horizontal.css';
 
 const Activities = () => {
   const slides = [
-    { title: 'CREDIT CARD AS AN ASSET', date: '04 MARCH 2020', location:'Facebook livestream', image:'./images/facebook1.png', link:'#'},
-    { title: 'Asset Management',  date: 'Upcoming', location:'Online', image:'https://images.pexels.com/photos/3321793/pexels-photo-3321793.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500', link:'#'},
-    { title: 'LIFE INSURANCE',  date: '11 APRIL 2020', location:'Online - Facebook', image:'./images/facebook2.png', link:'https://www.facebook.com/neville.erambo/videos/3547007808660535/'}
+    { title: 'CREDIT CARD AS AN ASSET', date: '04 MARCH 2020', location:'Facebook livestream', image:'./images/facebook1.png', link:'https://www.facebook.com/neville.erambo/videos/3530029920358324/?notif_id=1585998264780971&notif_t=feedback_reaction_generic'},
+    { title: 'Wealth Management',  date: 'Upcoming', location:'Online', image:'https://images.pexels.com/photos/3321793/pexels-photo-3321793.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500', link:'#'},
+    { title: 'LIFE INSURANCE',  date: '11 APRIL 2020', location:'Online - Facebook', image:'./images/facebook2.png', link:'https://www.facebook.com/neville.erambo/videos/3547622095265773/?notif_id=1586622943391003&notif_t=feedback_reaction_generic'}
   ];
   return (
     <div className="activities">
