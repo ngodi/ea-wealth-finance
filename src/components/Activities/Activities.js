@@ -23,7 +23,7 @@ const Activities = () => {
           <h2>{slide.title}</h2>
           <span className="slide-date">{slide.date}</span>
           <span className="slide-location">Location: {slide.location}</span>
-          <button><a href={slide.link}>VIEW NOW</a></button>
+          <button><a target="_blank" href={slide.link}>VIEW NOW</a></button>
         </div>)}
       </Slider>
     </div>
