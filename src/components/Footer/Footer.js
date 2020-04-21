@@ -20,7 +20,7 @@ const Footer = () => {
             </ul>
     </div>
     <div className="footer-right">
-           <h4>CONECT WITH US</h4>
+           <h4>CONNECT WITH US</h4>
           <div className="footer-contact">
           <span><i class="fas fa-2x fa-phone-square-alt"></i>&nbsp;+44 7958 431532</span>
            <span><i class="fas fa-2x fa-at"></i>&nbsp; nevilleerambo@yahoo.com</span>
