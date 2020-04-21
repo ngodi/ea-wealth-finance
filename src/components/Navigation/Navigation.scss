@@ -58,11 +58,11 @@
 
      &__button{
        background-color: white;
-       height: 7rem;
-       width: 7rem;
+       height: 4.5rem;
+       width: 4.5rem;
        position: fixed;
-       top: 3rem;
-       right: 3rem;
+       top: 0.7rem;
+       right: 0.7rem;
        border-radius: 50%;
        position: fixed;
        z-index: 2000;
@@ -72,12 +72,12 @@
      }
 
      &__background{
-      height:6rem;
-      width: 6rem;
+      height:4rem;
+      width: 4rem;
       border-radius: 50%;
       position: fixed;
-      top: 3.5rem;
-      right: 3.5rem;
+      top: 1rem;
+      right: 1rem;
       background-image: radial-gradient($blue-tertiary, $blue-primary);
       z-index: 1000;
       transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
@@ -143,14 +143,14 @@
 
     &__icon{
         position: relative;
-        margin-top: 3.5rem;
-        margin-left: 2rem;
+        margin-top: 2.3rem;
+        margin-left: 1.2rem;
         &,
         &::before,
         &::after{
-            width: 3rem;
+            width: 2rem;
             height: 2px;
-            background-color: black;
+            background-color: $blue-tertiary;
             display: inline-block
         }
 
