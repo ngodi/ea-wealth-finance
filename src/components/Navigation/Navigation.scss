@@ -35,7 +35,7 @@
         margin: 5px 10px;
         border: 1px solid $blue-tertiary;
         background: $blue-tertiary;
-        color: WHITE;
+        color: white;
         border-radius: 5px;
         padding: 5px;
         text-decoration: none;
@@ -53,6 +53,7 @@
 .social-links{
     display: flex;
     justify-content: center;
+    
 
     a{
         text-decoration: none;

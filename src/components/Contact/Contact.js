@@ -13,15 +13,9 @@ const Contact = () => {
            <span className="heading-text">REACH US</span>
         </div>
        <div className="contact-content">
-           <div className="contact-inner">
-            <div className="contact-top">
-              <span><i class="fas fa-2x fa-phone-square-alt"></i>&nbsp;+44 7958 431532</span>
-              <span><i class="fas fa-2x fa-at"></i>&nbsp; nevilleerambo@yahoo.com</span>
-            </div>
             <div className="contact-form">
               <ContactUs />
             </div>
-           </div>
        </div>
 
     </div>
